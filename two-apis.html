@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two APIs</title>
+</head>
+<body>
+    <link rel="stylesheet" href="two-apis-styles.css">
+    
+    <h3>Penguins Games and Pittsburgh Precipitation</h3>
+
+    <div>
+    <p>Year Showing</p>
+    <input type="radio" name="yearChoice" id="yearBoth" onclick="makeDefaultTable()" checked>2021-2022</input>
+    <input type="radio" name="yearChoice" id="year21" onclick="tableByYear()">2021</input>
+    <input type="radio" name="yearChoice" id="year22" onclick="tableByYear()">2022</input>
+    </div>
+    
+    <div>
+        <p>Page Color Selector</p>
+        <input type="checkbox" name="pageColor" id="blue" onclick="pageColor()" checked>Blue</input>
+        <input type="checkbox" name="pageColor" id="yellow" onclick="pageColor()">Yellow</input>
+    </div> 
+
+    <div>
+        <p>Minimum Goals Per Game</p>
+        Goals: <input type="text" id="numTotalGoals"></input>
+        <button onclick="tableByYear()">Submit</button>
+        
+    </div>
+    
+    <br>
+
+    <div>
+        <table id="displayTable" width="90%"  style="border:solid;">
+            <tr>
+                <th>Date</th>
+                <th>Home Team</th>
+                <th>Away Team</th>
+                <th>Home Team Score</th>
+                <th>Away Team Score</th>
+                <th>Millimeters of Precipitation</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="two-apis-script.js" defer></script>
+</body>
+</html>

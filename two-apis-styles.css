@@ -1,0 +1,30 @@
+/* 
+3 Changes to the HTML page: 
+centering
+font style
+button text color 
+*/
+
+body{
+    background-color: lightblue;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Changes font of main headings Penguins Games and Pittsburgh Precipitation */
+}
+
+td{
+    text-align: center; 
+    /* Centers the data in the table cells */
+}
+
+p{
+    font-family: fantasy;
+    /* Changes font of options headings ex. Year Showing */
+}
+  
+button{
+    color: darkblue;
+    /* Makes button text dark blue */
+}

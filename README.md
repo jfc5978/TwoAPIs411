@@ -6,3 +6,5 @@ This assignment was to take two unrelated APIs and relate them in some way. For 
 - Used JavaScript to connect to the APIs
 - Used JavaScript to parse the data into my desired format for the project (precipitation was recorded by hour; I added logic to get the daily total instead.)
 - Used CSS to style the HTML page and data display table
+
+*Please note that the APIs used in this assignment are no longer available
